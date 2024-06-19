@@ -5,3 +5,7 @@ function scrollToSection(sectionId) {
 function navigateTo(url) {
     window.location.href = url;
 }
+
+document.getElementById('goBackButton').addEventListener('click', function() {
+    history.back();
+});
